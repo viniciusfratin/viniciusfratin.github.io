@@ -30,7 +30,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 markdown: kramdown
-mathjax: true
 
 # Build settings
 theme: minima
