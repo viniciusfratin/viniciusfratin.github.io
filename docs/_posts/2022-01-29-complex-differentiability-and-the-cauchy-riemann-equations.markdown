@@ -98,7 +98,7 @@ real-differentiability. The downside of these new possibilities is that there ar
 complex-differentiable functions are common enough and useful enough that the time and effort in studying them is completely worthwhile.
 
 One example of the power of complex-differentiability is that, when a function is complex-differentiable at least **once** in an open disk around a point, then we can automatically conclude that it is complex-differentiable an
-**infinite number of times** in this disk. Even more, the power series expansion for complex-differentiable functions in an open disk converges everywhere to the values of the function itself in this disk, so it is also **analytic** there! (September 19th, 2023: See correction notes at the end.) 
+**infinite number of times** in this disk. Even more, the power series expansion for complex-differentiable functions in an open disk converges everywhere to the values of the function itself in this disk, so it is also **analytic** there! (**September 19th, 2023**: See correction note 1 at the end.) 
 
 Just imagine trying to do the same for real-differentiable functions: let's consider the function $$f: \mathbb{R} \to \mathbb{R}$$ such that 
 
@@ -197,21 +197,23 @@ $$
 $$
 
 These are the famous **Cauchy-Riemann equations** and are, as we have just shown, necessary conditions for the differentiability of a complex function at a point. In other words, if the Cauchy-Riemann equations are **not**
-both satisfied for two functions $$u$$ and $$v$$ at a point, then the function $$f=u+iv$$ is **not** differentiable at this point. (September 19th, 2023: See clarification notes at the end.)
+both satisfied for two functions $$u$$ and $$v$$ at a point, then the function $$f=u+iv$$ is **not** differentiable at this point. (**September 19th, 2023**: See clarification note 1 at the end.)
 
 In general, **the converse is not true**. That is, if $$u$$ and $$v$$ satisfy the Cauchy-Riemann equations, we **cannot** say that $$f=u+iv$$ is differentiable. However, under certain regularity
-conditions (such as when $$u$$ and $$v$$ are both real-differentiable), the converse holds. In this case, the Cauchy-Riemann equations provide an elegant characterization of complex-differentiable functions.
+conditions (such as when $$u$$ and $$v$$ are both continuously real-differentiable), the converse holds. In this case, the Cauchy-Riemann equations provide an elegant characterization of complex-differentiable functions. (**September 19th, 2023**: See correction note 2 at the end.)
 
 In some sense, one way that the Cauchy-Riemann equations show that complex-differentiability is a stronger condition than real-differentiability is by exposing direct relations between the partial derivatives of
 the real and imaginary parts of the complex function, which is something that has no direct parallel in the study of real-differentiability of real functions.
 
 # Correction notes
 
-September 19th, 2023: The important remark that this condition needs to hold **in an open disk around the point**, and not only the point, was missing and was added.
+**Note 1**: The important remark that this condition needs to hold **in an open disk around the point**, and not only the point, was missing and was added.
+
+**Note 2**: For the converse statement, one of the regularity conditions is that $$u$$ and $$v$$ must be continuosly real-differentiable. The continuity of the derivatives was missing and was added.
 
 # Clarification notes
 
-September 19th, 2023: it is important to remember that differentiability is something which applies to a single point, so this information was added.
+**Note 1**: it is important to remember that differentiability is something which applies to a single point, so this information was added.
 
 # References
 
